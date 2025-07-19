@@ -86,7 +86,7 @@ $ ./Ackermann
 函數定義本身為遞迴形式
 程式結構簡潔直觀
 使用遞迴可以讓程式碼對應到數學公式的層次關係，提升可讀性與邏輯清晰度。
-以本程式為例，核心實作如下：
+核心實作如下：
 ```cpp
 int ackermann_recursive(int m, int n) {
     if (m == 0) return n + 1;
